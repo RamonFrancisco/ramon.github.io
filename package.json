@@ -1,0 +1,39 @@
+{
+	"name": "ramon.github.io",
+	"version": "1.0.0",
+	"description": "Portfolio",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RamonFrancisco/ramon.github.io.git"
+	},
+	"keywords": [
+		"HTML",
+		"CSS",
+		"Javascript"
+	],
+	"author": "Ramon Francisco",
+	"license": "MIT",
+	"homepage": "https://github.com/RamonFrancisco/ramon.github.io#readme",
+	"devDependencies": {
+		"@babel/core": "^7.4.5",
+		"@babel/preset-env": "^7.4.5",
+		"babel-loader": "^8.0.6",
+		"browser-sync": "^2.26.5",
+		"cssnano": "^4.1.10",
+		"gulp": "^4.0.2",
+		"vinyl-named": "^1.1.0",
+		"webpack-stream": "^5.2.1"
+	},
+	"dependencies": {
+		"autoprefixer": "^9.5.1",
+		"del": "^4.1.1",
+		"gulp-imagemin": "^5.0.3",
+		"gulp-load-plugins": "^1.5.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-postcss": "^8.0.0",
+		"gulp-rename": "^1.4.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-util": "^3.0.8"
+	}
+}
