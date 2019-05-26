@@ -9,7 +9,7 @@ module.exports = (gulp, $, _) => {
 			.pipe(named())
 			.pipe(webpack({
 				output: {
-					filename: 'app.min.js'
+					filename: 'app.js'
 				},
 				resolve: {
 					modules: [
