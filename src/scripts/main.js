@@ -4,6 +4,7 @@
 	window.onload = () => {
 		setTimeout(function() {
 			loader.classList.add('--disable');
-		}, 500);
+			
+		}, 1000);
 	}
 })();
